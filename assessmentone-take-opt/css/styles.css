@@ -1,0 +1,422 @@
+body {
+    width: 1821px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 100%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+a {
+    font-family: 'youngserifregular';
+    color: white;
+    line-height: 24px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* HEADER START */
+
+header {
+    background-image: url(../img/header.webp);
+    background-size: 100%;
+    height: 951px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    top: 56px;
+    left: 316px;
+}
+
+.logo img {
+    width: auto;
+    height: 40px;
+}
+
+.logo p {
+    font-family: 'youngserifregular';
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.tag-line {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 332px;
+    left: 310px;
+}
+
+.tag-line h1 {
+    word-spacing: 25px;
+    letter-spacing: 1px;
+}
+
+.small-letters {
+    font-size: 43px;
+}
+
+.tag-line p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    height: 73.57px;
+    width: 438.84px;
+    line-height: 24px;
+}
+
+.phone-container {
+    height: 950px;
+    width: auto;
+    position: relative;
+    right: 287px;
+    top: 58px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone {
+    height: 948px;
+    width: auto;
+}
+
+/* HEADER END */
+
+
+/* MAIN START */
+
+main {
+    background: white;
+}
+
+/* SECTION ONE */
+
+.section-one {
+    width: 1203px;
+    margin: 0 auto;
+}
+
+.section-one h2 {
+    margin: 113px 0 38px 0;
+    color: #222626;
+}
+
+.section-one p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 570px;
+    text-indent: 10px;
+    line-height: 24px;
+    margin-bottom: 33px;
+    color: #959595;
+}
+
+.row-one {
+    display: flex;
+}
+
+.column-one, .column-two {
+    width: 50%;
+}
+
+.column-two {
+    margin-top: 105px;
+}
+
+/* SECTION ONE END */
+
+/* SECTION TWO */
+
+.section-two {
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.section-two p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.arrow {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    left: 3px;
+    bottom: 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    height: 278px;
+    padding: 40px 50px 0 45px;
+}
+
+.box-one {
+    flex: 1 1 calc(100% / 3);
+    background: #f5989d;
+}
+
+.box-two {
+    flex: 1 1 calc(100% / 3);
+    background: #615f7d; 
+}
+
+.box-three {
+    flex: 1 1 calc(100% / 3);
+    background-image: url(../img/box-3.webp);
+}
+
+.box-four {
+    background-image: url(../img/box-4.webp); 
+    flex: 1 1 calc((100% / 3) * 2);
+}
+
+.box-five {
+    flex: 1 1 calc(100% / 3);
+    background:#82ca9c; 
+}
+
+.box-one p:last-of-type,
+.box-two p:last-of-type,
+.box-five p:last-of-type {
+    margin-bottom: 35px;
+}
+
+.box-three p:last-of-type,
+.box-four p:last-of-type {
+    margin-bottom: 56px;
+}
+
+/* SECTION TWO END */
+
+/* SECTION THREE */
+
+.section-three {
+    width: 1203px;
+    margin: 0 auto;
+}
+
+.section-three h2 {
+    margin: 97px 0 62px 0;
+    color: #222626;
+}
+
+.section-three h4 {
+    color: #67676d;
+    margin-bottom: 20px;
+}
+
+.section-three p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #959595;
+}
+
+.row-two {
+    display: flex;
+}
+
+.row-two div {
+    width: 272.62px;
+    margin-right: 32px;
+}
+
+/* SECTION THREE END */
+
+/* SECTION FOUR */
+
+.section-four {
+    background-image: url(../img/car-wheel.webp);
+    background-size: 100%;
+    height: 873px;
+    color: white;
+    margin-top: 150px;
+}
+
+.power-container {
+    position: relative;
+    top: 436px;
+    left: 322px;
+}
+
+.section-four h1 {
+    width: 500px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+.section-four p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    width: 468.55px;
+    margin-bottom: 18px;
+}
+
+.power-arrow {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+}
+
+/* SECTION FOUR END */
+
+/* SECTION FIVE */
+
+.section-five {
+    width: 1203px;
+    margin: 0 auto;
+    color: #192431;
+}
+
+.row-three {
+    display: flex;
+}
+
+.section-five h2 {
+    margin: 118px 0 60px 0;
+}
+
+.section-five h4 {
+    margin-bottom: 20px;
+}
+
+.section-five p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 372.05px;
+    margin-right: 36px;
+}
+
+/* SECTION FIVE END */
+
+
+/* MAIN END */
+
+
+/* FOOTER */
+
+footer {
+    background: #192431;
+    background-size: 100%;
+    height: 381px;
+    color: #f6f7fa;
+    margin-top: 150px;
+}
+
+footer h4 {
+    margin-bottom: 29px;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.footer-row {
+    display: flex;
+    padding-top: 117px;
+}
+
+.footer-column-one, .footer-column-two {
+    width: 50%;
+}
+
+.footer-column-one {
+    padding-left: 313px;
+}
+
+.footer-column-two {
+    padding-left: 135px;
+}
+
+ul {
+    display: flex;
+    width: 470px;
+}
+
+ul img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+ul img:hover {
+    color: black;
+  }
+
+ul img:nth-last-of-type(3) {
+    margin-left: auto;
+}
+
+.search-bar {
+    height: 58px;
+    width: 470px;
+}
+
+.spam {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #57697f;
+    width: 350px;
+    margin-top: 12px;
+}
+
+/* FOOTER END */
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'youngserifregular';
+    src: url('../fonts/youngserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/youngserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
